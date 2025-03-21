@@ -1,0 +1,170 @@
+.header-container {
+  background: #f8f9fa;
+  padding: 10px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.category-container {
+  display: flex;
+  align-items: center;
+}
+
+.category-select {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.trending-select {
+  display: none;
+}
+
+.trending {
+  position: relative;
+  cursor: pointer;
+  padding: 6px 10px;
+  font-size: 14px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.trending:hover {
+  background-color: #555;
+}
+
+.trending-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgb(199, 196, 196);
+  border: 1px solid #ccc;
+  display: none;
+  width: 200px;
+  z-index: 10;
+}
+
+.trending:hover .trending-dropdown {
+  display: block;
+}
+
+.trending-dropdown a {
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.trending-dropdown a:hover {
+  background: #bd8181;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  flex: 1;
+  font-size: 14px;
+}
+
+.search-icon {
+  color: #555;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #007bff;
+}
+
+.navBar-info {
+  display: flex;
+  background: blue;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+  width: auto;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.navBar-info a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  gap: 2rem;
+  font-weight: bold;
+  padding: 4px;
+  margin: 0;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: rgba(25, 285, 2, 0.2);
+}
+.login-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+li {
+  color: white;
+  display: flex;
+  gap: 2rem;
+  padding: 4px;
+  margin: 0;
+}
+
+.contact {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
